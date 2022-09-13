@@ -1,6 +1,6 @@
 # Data Fetching and Other Side Effects
 
-[GitHub Repository Branch](https://github.com/WarrenUhrich/lighthouse-labs-data-fetching-and-other-side-effects/tree/2022.09.13-web-flex-day-16may2022) | [Vimeo Video Recording (Coming Soon!)](#coming-soon)
+[GitHub Repository Branch](https://github.com/WarrenUhrich/lighthouse-labs-data-fetching-and-other-side-effects/tree/2022.09.13-web-flex-day-16may2022) | [Vimeo Video Recording](https://vimeo.com/749319689/430052eb89)
 
 * [X] Pure Functions
 * [X] Side-Effects
