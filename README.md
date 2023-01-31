@@ -7,6 +7,30 @@
 * [X] React Hooks
 * [X] The `useEffect` Hook
 
+## Running These Examples
+
+How to run the examples. If port 3000 is open for React to latch onto, visit [http://localhost:3000](http://localhost:3000).
+
+Back-end endpoints are located at:
+
+* Locations: [http://localhost:5000/api/locations](http://localhost:5000/api/locations)
+* Students: [http://localhost:5000/api/students](http://localhost:5000/api/students)
+
+```
+# Pure function example(s):
+node ./pure-functions.js
+
+# Front-end Examples:
+cd ./react-app
+npm install
+npm run start
+
+# Back-end example:
+cd ./server-app
+npm install
+node express_server.js
+```
+
 ## Pure Functions
 
 Most of the programming we've looked at is considered "[procedural](https://en.wikipedia.org/wiki/Procedural_programming)." This is imperitive programming reliant on use of concepts like "variables," "blocks" and "scope." To give these blocks more utility, reserved words in such programming languages often include `if`, `while`, `for`, and more.
