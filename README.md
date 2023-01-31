@@ -1,6 +1,6 @@
 # Lighthouse Labs | Data Fetching and Other Side Effects
 
-[GitHub Repository Branch](https://github.com/WarrenUhrich/lighthouse-labs-data-fetching-and-other-side-effects/tree/2023.01.31-web-flex-day-19sept2022) | [Vimeo Video Recording (Coming Soon)](#coming-soon)
+[GitHub Repository Branch](https://github.com/WarrenUhrich/lighthouse-labs-data-fetching-and-other-side-effects/tree/2023.01.31-web-flex-day-19sept2022) | [Vimeo Video Recording](https://vimeo.com/794634026/61e5745695)
 
 * [X] Pure Functions
 * [X] Side-Effects
@@ -9,23 +9,27 @@
 
 ## Running These Examples
 
-How to run the examples. If port 3000 is open for React to latch onto, visit [http://localhost:3000](http://localhost:3000).
+How to run the examples.
 
-Back-end endpoints are located at:
+If port 3000 is open for React to latch onto, visit [http://localhost:3000](http://localhost:3000) to see the **React application**.
+
+Back-end endpoints for the **Express application** are located at:
 
 * Locations: [http://localhost:5000/api/locations](http://localhost:5000/api/locations)
 * Students: [http://localhost:5000/api/students](http://localhost:5000/api/students)
+
+To get these up and running, see the following terminal instructions.
 
 ```
 # Pure function example(s):
 node ./pure-functions.js
 
-# Front-end Examples:
+# Front-end example(s):
 cd ./react-app
 npm install
 npm run start
 
-# Back-end example:
+# Back-end example(s):
 cd ./server-app
 npm install
 node express_server.js
