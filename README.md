@@ -2,8 +2,8 @@
 
 * [X] Pure Functions
 * [X] Side-Effects
-* [ ] React Hooks
-* [ ] The `useEffect` Hook
+* [X] React Hooks
+* [X] The `useEffect` Hook
 
 ## Pure Functions
 
@@ -59,6 +59,9 @@ import { useEffect } from 'react';
 // Envoke the useEffect hook supplied from React
 useEffect(() => {
     // In our callback belongs our side-effect code.
+
+    // Optionally you can return a "clean-up" function!
+    return () => {};
 }, []); // "Dependencies Array" -> determines how often our side-effect code runs.
 
 // 1. If no dependencies array is provided, the side-effect runs EVERY render
